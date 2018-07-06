@@ -1,0 +1,15 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DDenver/build.git",
+  "author": "DDenver <den107620@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
